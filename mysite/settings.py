@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'd(v%g%bs46$fersmkh8(sfrw$4ue&1c&$uv)4o=w$#-yew@on+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True 
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '<anya26>.pythonanywhere.com']
 
@@ -120,3 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#login
+LOGIN_REDIRECT_URL = '/'
